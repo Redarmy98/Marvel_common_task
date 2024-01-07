@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shriganesh's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="left">Shriganesh's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Contact me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, I'm <span class="purple">Shriganesh</span>
+          <div>
+            I'm an engineering student, and I'm trying to be a programmer
+          </div>
+          <span id="element"></span>
+        </div>
+        <div class="rightSection">
+          <img src="Images/p.png" alt="Error" />
+        </div>
+      </section>
+      <hr class="tn" />
+      <section class="secondSection">
+        <span class="light">What I have learnt in 1st year</span>
+        <h1>Languages I Know:</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="logo" src="Images/cpp.png" alt="" />
+            <div class="vertical-text">Intermediate level</div>
+          </div>
+          <div class="vertical">
+            <img class="logo" src="Images/python.jpeg" alt="" />
+            <div class="vertical-text">Completed the basics</div>
+          </div>
+          <div class="vertical">
+            <img class="logo" src="Images/c.jpg" alt="" />
+            <div class="vertical-text">Completed the basics</div>
+          </div>
+          <div class="vertical">
+            <img class="logo" src="Images/HTML.png" alt="" />
+            <div class="vertical-text">Completed the basics</div>
+          </div>
+          <div class="vertical">
+            <img class="logo" src="Images/css.jpeg" alt="" />
+            <div class="vertical-text">Completed the basics</div>
+          </div>
+        </div>
+        <div class="about">
+          <h2 class="domain">
+            <u><b>C++</b></u>
+          </h2>
+          <ul class="know">
+            <b>
+              <li>Completed the fundamental</li>
+              <li>Learnt OOPs, DMA & File I/O</li>
+              <li>Participated in different coding contest</li>
+              <li>Have done some mini projects</li>
+            </b>
+          </ul>
+        </div>
+      </section>
+      <hr class="tn" />
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      // var typed = new Typed('#element', {
+      //     strings: ['App developer', 'Cybersecurity analysts', 'Back-end developer'],
+      //     typeSpeed: 50,
+      //     loop: true, // Set loop to true to make it repeat
+      // });
+      var typed = new Typed("#element", {
+        strings: ["C++", "Python", "C language", "HTML", "CSS"],
+        typeSpeed: 100,
+        backSpeed: 100, // Speed at which typing back happens
+        backDelay: 1000, // Delay before starting to type back
+        startDelay: 0, // Delay before starting to type
+        loop: true, // Set to true to loop the animation
+      });
+    </script>
+  </body>
+</html>
