@@ -1,4 +1,4 @@
-
+#include <LiquidCrystal_I2C.h>
 LiquidCrystal_I2C lcd(32, 16, 2); // Format -> (Address,Width,Height )
 
 #define echoPin 2 // attach pin D2 Arduino to Echo pin of Sensor module
